@@ -1,0 +1,16 @@
+# Données MNIST (téléchargées automatiquement)
+data/
+
+# Modèles entraînés (trop lourds pour GitHub)
+exp/*.pt
+
+# Logs HPC
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
