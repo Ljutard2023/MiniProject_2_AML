@@ -215,8 +215,8 @@ The geodesic CoV is consistently lower than the Euclidean CoV, confirming that p
 ---
 
 ## 👥 Authors
-- Student 1 — s...
-- Student 2 — s...
-- Student 3 — s...
+- Student 1 — s224403
+- Student 2 — s224386
+- Student 3 — s253050
 
 DTU — Advanced Machine Learning (02460) — Spring 2026
