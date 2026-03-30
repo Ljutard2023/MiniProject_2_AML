@@ -557,7 +557,7 @@ if __name__ == "__main__":
             )
             geodesics.append(curve)
 
-        # Trace et sauvegarde
+        # Draw and save
         save_path = f"{args.experiment_folder}/geodesics_partB_{args.num_decoders}dec.png"
         plot_latent_with_geodesics(
             all_z, all_labels, geodesics,
@@ -653,7 +653,6 @@ if __name__ == "__main__":
         cov_path = f"{args.experiment_folder}/cov_plot.png"
         plot_cov(decoder_counts, mean_euc_cov, mean_geo_cov, save_path=cov_path)
 
-        # Sauvegarde aussi les données brutes
         np.save(f"{args.experiment_folder}/euclidean_dists.npy",
                 euclidean_dists.numpy())
         np.save(f"{args.experiment_folder}/geodesic_dists.npy",
